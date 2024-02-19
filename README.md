@@ -7,7 +7,7 @@ This project is an Exploratory Data Analysis of the housing prices of New York
 ## Key Features of the dataset
 ***The dataset contains prices of New York houses, providing valuable insights into the real estate market in the region. It includes information such as broker titles, house types, prices, number of bedrooms and bathrooms, property square footage, addresses, state, administrative and local areas, street names, and geographical coordinates.***
 
-BROKERTITLE: Title of the broker
+BROKERTITLE: Title of the broker /n /br
 TYPE: Type of the house
 PRICE: Price of the house
 BEDS: Number of bedrooms
