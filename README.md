@@ -38,4 +38,7 @@ LONG_NAME: Long name
 FORMATTED_ADDRESS: Formatted address
 
 LATITUDE: Latitude coordinate of the house
+
 LONGITUDE: Longitude coordinate of the house
+
+***I have used the dataset from kaggle : https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market***
