@@ -2,6 +2,13 @@
 
 This project is an Exploratory Data Analysis of the housing prices of New York
 
+## What we have analysed in this project:
+
+1. Scatterplot comparing the prices by sublocality.
+2. Plotly map visualizing the prices on the map.
+3. Heatmap showing the correaltion between the price and size of the property.
+4. Boxplot so we can see the IQR of the property prices.
+
 
 
 ## Key Features of the dataset
