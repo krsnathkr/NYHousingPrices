@@ -1,51 +1,51 @@
-# NYHousingPrices
+# New York Housing Prices Analysis
 
-This project is an Exploratory Data Analysis of the housing prices of New York
+## Overview
+This project aims to analyze housing prices in New York using real estate data obtained from a dataset. The analysis involves exploring various aspects of the dataset such as price distribution, correlation between price and property size, geographical distribution of prices, and more.
 
-## What we have analysed in this project:
+## Requirements
+- Python 3.x
+- Libraries: NumPy, Pandas, Matplotlib, Seaborn, Plotly
 
-1. Scatterplot comparing the prices by sublocality.
-2. Plotly map visualizing the prices on the map.
-3. Heatmap showing the correaltion between the price and size of the property.
-4. Boxplot so we can see the IQR of the property prices.
+## Installation
+1. Clone this repository to your local machine.
+2. Ensure Python 3.x is installed on your system.
+3. Install the required libraries using pip:
+    ```
+    pip install numpy pandas matplotlib seaborn plotly
+    ```
 
+## Usage
+1. Run the Python script `housing_analysis.py`.
+2. The script will load the dataset, perform data analysis, and generate visualizations.
+3. Results will be displayed in the console and saved as image files in the current directory.
 
+## Dataset
+The dataset used in this project (`NY-House-Dataset.csv`) contains information about various properties in New York, including details such as price, number of bedrooms and bathrooms, property size, address, and geographical coordinates.
 
-## Key Features of the dataset
-***The dataset contains prices of New York houses, providing valuable insights into the real estate market in the region. It includes information such as broker titles, house types, prices, number of bedrooms and bathrooms, property square footage, addresses, state, administrative and local areas, street names, and geographical coordinates.***
+## Analysis Steps
+1. Data Loading and Overview:
+   - Load the dataset using Pandas.
+   - Display basic information about the dataset (columns, data types, etc.).
+   - Check for missing values.
 
-BROKERTITLE: Title of the broker
+2. Data Preprocessing:
+   - Remove outliers to focus on main price ranges.
 
-TYPE: Type of the house
+3. Exploratory Data Analysis:
+   - Scatterplot comparing prices by sublocality.
+   - Visualization of prices on a map.
+   - Heatmap showing correlation between price and property size.
+   - Boxplot displaying the interquartile range (IQR) of property prices based on the number of bedrooms.
 
-PRICE: Price of the house
+4. Interpretation:
+   - Analyze findings from visualizations to draw insights about housing prices in different areas of New York.
 
-BEDS: Number of bedrooms
+## Results
+- The analysis provides insights into housing price distribution, correlation with property size, and geographical variations across different sublocalities in New York.
 
-BATH: Number of bathrooms
+## Contributors
+- krsnathkr
 
-PROPERTYSQFT: Square footage of the property
-
-ADDRESS: Full address of the house
-
-STATE: State of the house
-
-MAIN_ADDRESS: Main address information
-
-ADMINISTRATIVE_AREA_LEVEL_2: Administrative area level 2 information
-
-LOCALITY: Locality information
-
-SUBLOCALITY: Sublocality information
-
-STREET_NAME: Street name
-
-LONG_NAME: Long name
-
-FORMATTED_ADDRESS: Formatted address
-
-LATITUDE: Latitude coordinate of the house
-
-LONGITUDE: Longitude coordinate of the house
-
-***I have used the dataset from kaggle : https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market***
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
